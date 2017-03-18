@@ -1,6 +1,6 @@
 # Solving State Explosion with Petri-Nets and Vector Clocks
 
-Event driven programming has a problem formally modeling events
+Event driven programming has a problem formally modeling events:
 https://en.wikipedia.org/wiki/Event-driven_programming#Criticism
 
 #### The Problem
@@ -15,9 +15,9 @@ inflicts repetitions.
 
 ### Bitwrap Solution
 
-#### Some Computer Science:
-
 What is a bitwrap machine?
+
+#### Some Computer Science:
 
 It's a specialized form of:
 https://en.wikipedia.org/wiki/Matrix_clock
@@ -30,13 +30,13 @@ https://en.wikipedia.org/wiki/Petri_net
 
 ### Vector Form
 
-given this simple 3-place Petri-Net that models a voting system:
+Given this simple 3-place Petri-Net that models a voting system:
 
 ![vote_machine graph](https://bitwrap.github.io/image/vote_machine.png)
 
 * We can represent the state as an array of 'places'.
   * Each place is acted upon but a 'transition' vector.
-* We represent an instrction set as a set of deltas
+* We represent an instruction set as a set of deltas
   * Each transition vector maps to a single instruction.
 * During an execution
   * Transition vectors are combined with input states using vector addition.
