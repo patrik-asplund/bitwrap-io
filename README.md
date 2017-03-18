@@ -5,6 +5,8 @@
 
 A blockchain-style eventstore.
 
+Read the whitepaper [Solving 'State Exposion' with Petri-Nets and Vector Clocks](https://github.com/bitwrap/bitwrap-io/blob/master/whitepaper.md)
+
 ![tic-tac-toe state machine](https://bitwrap.github.io/image/octothorpe.png)
 
 (above is a tic-tac-toe state machine )
