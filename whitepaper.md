@@ -35,7 +35,7 @@ Given this simple 3-place Petri-Net that models a voting system:
 ![vote_machine graph](https://bitwrap.github.io/image/vote_machine.png)
 
 * We can represent the state as an array of 'places'.
-  * Each place is acted upon but a 'transition' vector.
+  * Each place is acted upon by a 'transition' vector.
 * We represent an instruction set as a set of deltas
   * Each transition vector maps to a single instruction.
 * During an execution
