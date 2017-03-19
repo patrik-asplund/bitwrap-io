@@ -1,11 +1,9 @@
 # Solving State Explosion with Petri-Nets and Vector Clocks
 
-Event driven programming has a problem formally modeling events:
-https://en.wikipedia.org/wiki/Event-driven_programming#Criticism
-
 #### The Problem
 
-
+Event driven programming has a problem formally modeling events:
+https://en.wikipedia.org/wiki/Event-driven_programming#Criticism
 
 ```
 Due to the phenomenon known as "state explosion," the complexity of a traditional FSM tends to grow much faster
